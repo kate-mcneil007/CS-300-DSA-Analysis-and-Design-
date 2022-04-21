@@ -1,0 +1,115 @@
+Vector 	                         Number of Times 
+                     Line Cost      Executed	      Total Cost
+-----------------------------------------------------------------
+Try:	                   1	            1	               1
+-----------------------------------------------------------------
+For the length 
+of the row count
+in the file	             1	            n	               n
+----------------------------------------------------------------
+Create a course 
+object	                 1	            n	               n
+----------------------------------------------------------------
+Set the course
+number located 
+in index 0	             1	            n	               n
+----------------------------------------------------------------
+Set the course name
+located in index 1 	     1	            n	                n
+----------------------------------------------------------------
+If index 2 is not null	 1	            n	                n
+----------------------------------------------------------------
+While a null index is
+not reached 	           1	             n	              n
+----------------------------------------------------------------
+Set course
+prerequisite 	           1	             n	              n
+----------------------------------------------------------------
+Push course to 
+end of vector	           1	             n	              n
+----------------------------------------------------------------
+Catch: any errors and 
+return error message	   1	             1	              1
+----------------------------------------------------------------
+Total Cost: 8n + 2 = 4n + 1
+Worst Case Access Runtime: O(1)
+Worst Case Insertion Runtime: O(n)
+
+
+Hash Table	                      Number of Times 
+                     Line Cost      Executed	      Total Cost
+-----------------------------------------------------------------
+Try:	                   1	            1	               1
+-----------------------------------------------------------------
+For the length 
+of the row count
+in the file	             1	            n	               n
+----------------------------------------------------------------
+Create a course 
+object	                 1	            n	               n
+----------------------------------------------------------------
+Set the course
+number located 
+in index 0	             1	            n	               n
+----------------------------------------------------------------
+Set the course name
+located in index 1 	     1	            n	                n
+----------------------------------------------------------------
+If index 2 is not null	 1	            n	                n
+----------------------------------------------------------------
+While a null index is
+not reached 	           1	             n	              n
+----------------------------------------------------------------
+Set course
+prerequisite 	           1	             n	              n
+----------------------------------------------------------------
+Push course to 
+end of table	           1	             n	              n
+----------------------------------------------------------------
+Catch: any errors and 
+return error message	   1	             1	              1
+----------------------------------------------------------------
+Total Cost: 8n + 2 = 4n + 1
+Worst Case Access Runtime: N/A
+Worst Case Insertion Runtime: O(n) 
+
+Binary Search Tree               Number of Times 
+                     Line Cost      Executed	      Total Cost
+-----------------------------------------------------------------
+Try:	                   1	            1	               1
+-----------------------------------------------------------------
+For the length 
+of the row count
+in the file	             1	            n	               n
+----------------------------------------------------------------
+Create a course 
+object	                 1	            n	               n
+----------------------------------------------------------------
+Set the course
+number located 
+in index 0	             1	            n	               n
+----------------------------------------------------------------
+Set the course name
+located in index 1 	     1	            n	                n
+----------------------------------------------------------------
+If index 2 is not null	 1	            n	                n
+----------------------------------------------------------------
+While a null index is
+not reached 	           1	             n	              n
+----------------------------------------------------------------
+Set course
+prerequisite 	           1	             n	              n
+----------------------------------------------------------------
+Push course to 
+end of tree	             1	             n	              n
+----------------------------------------------------------------
+Catch: any errors and 
+return error message	   1	             1	              1
+----------------------------------------------------------------
+Total Cost: 8n + 2 = 4n + 1
+Worst Case Access Runtime: O(n)
+Worst Case Insertion Runtime: O(n) 
+
+Worst Case running time retrieved from: https://www.bigocheatsheet.com/
+
+
