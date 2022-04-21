@@ -1,0 +1,44 @@
+// Sorting the vector alphanumerically 
+void selectionSort(vector<Course>& courses) {
+	int min;
+	int size_t = courses.size();
+
+	// For the length of the vector size 
+	for (unsigned pos = 0; pos < courses.size(); ++pos) {
+		// Minimum is set to position starting at 0
+		min = pos;
+
+		// For the length of the vector size 
+		for (unsigned j = pos + 1; j < courses.size(); ++j) {
+			// If the course at j is smaller than the course at the current minimum 
+			if (courses.at(j).courseNum.compare(courses.at(min).courseNum) < 0) {
+				// New minimum set 
+				min = j;
+			}
+		}
+		// If the minimum is not equal to the position 
+		if (min != pos) {
+			// position and minimum swap values 
+			swap(courses.at(pos), courses.at(min));
+		}
+	}
+}
+
+// Function to print course number and title 
+// Course c is the vector course, c is the object within it
+void displayCourse(Course c) {
+  // Prints out object c's course number and title 
+	cout << c.courseNum << ", " << c.courseTitle << endl;
+}
+
+// When user selects for list to be printed, system prints this message and calls upon 
+// selection sort and display fucntions 
+cout << "Here is the printed course list: " << endl;
+			selectionSort(courses);
+    
+      //For the length of the course vector, call the display function for each object in it
+      // i here is replaced by object c in the actual function 
+			for (int i = 0; i < courses.size(); ++i) {
+				displayCourse(courses[i]);
+			}
+			break;
